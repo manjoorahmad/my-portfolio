@@ -707,7 +707,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/manjoorahmad/gaming-gear-marketplace"
+            href="https://github.com/manjoorahmad/gaming-gear"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-xl border border-gray-700 px-7 py-3.5 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:border-white hover:bg-white hover:text-black"
