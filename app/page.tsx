@@ -5,7 +5,7 @@ export default function Home() {
           <nav className="sticky top-0 z-50 border-b border-gray-800 bg-black/90 text-white backdrop-blur">
   <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
     
-    <h1 className="text-2xl font-bold">
+    <h1 className="text-5xl font-bold leading-tight md:text-7xl">
       Manjoor Ahmad
     </h1>
 
@@ -41,7 +41,7 @@ export default function Home() {
       <section id="home" className="min-h-screen bg-black text-white">
         <div className="min-h-screen flex items-center justify-center px-10">
   <div className="max-w-4xl text-center">
-    <p className="mb-4 text-lg text-gray-400">
+    <p className="max-w-2xl text-lg leading-8 text-gray-300 md:text-xl">
       Hello, I'm
     </p>
 
@@ -110,7 +110,7 @@ export default function Home() {
        </div>
      </div>
     </section>
-                      <section
+        <section
   id="skills"
   className="min-h-screen bg-black px-10 py-24 text-white"
 >
@@ -134,7 +134,7 @@ export default function Home() {
         "Node.js",
         "Express.js",
         "MongoDB",
-        "UI/UX+Figma",
+        "UI/UX + Figma",
       ].map((skill) => (
         <div
           key={skill}
@@ -158,8 +158,7 @@ export default function Home() {
     <h2 className="mb-12 text-4xl font-bold md:text-5xl">
       Featured Project
     </h2>
-
-    <div className="overflow-hidden rounded-2xl border border-gray-800 bg-gray-900">
+        <div className="overflow-hidden rounded-2xl border border-gray-800 bg-gray-900 transition duration-300 hover:-translate-y-1 hover:border-gray-600">
       <div className="grid md:grid-cols-2">
         
        <div className="overflow-hidden bg-gray-800">
@@ -239,7 +238,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
       <a
         href="mailto:manjoorahmad9170@gmail.com"
-        className="rounded-lg bg-white px-7 py-3 font-semibold text-black hover:bg-gray-200"
+        className="rounded-lg bg-white px-7 py-3 font-semibold text-black transition duration-300 hover:-translate-y-1 hover:bg-gray-200"
       >
         Contact Me
       </a>
@@ -248,10 +247,18 @@ export default function Home() {
         href="https://github.com/manjoorahmad"
         target="_blank"
         rel="noopener noreferrer"
-        className="rounded-lg border border-white px-7 py-3 font-semibold text-white hover:bg-white hover:text-black"
+        className="rounded-lg border border-white px-7 py-3 font-semibold text-white hover:bg-white hover:text-black transition duration-300 hover:-translate-y-1"
       >
         GitHub
       </a>
+            <a
+                   href="https://www.linkedin.com/in/manjoor-ahmad/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg border border-white px-7 py-3 font-semibold text-white hover:bg-white hover:text-black transition duration-300 hover:-translate-y-1git status"
+                      >
+                   LinkedIn
+             </a>
     </div>
   </div>
 </section>
