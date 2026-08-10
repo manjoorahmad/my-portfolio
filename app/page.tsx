@@ -130,9 +130,6 @@ export default function Home() {
   </div>
 </nav>
 
-
-
-
       {/* HERO YAHAN SE START HOGA */}
       
     <section
@@ -161,7 +158,7 @@ export default function Home() {
 
   {/* Small heading */}
   <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-blue-400">
-    UI/UX Designer • MERN Developer
+   MERN FullStack Developer • UI/UX Designer  
   </p>
 
   {/* Name */}
@@ -321,7 +318,7 @@ export default function Home() {
           {/* Photo information */}
           <div className="absolute bottom-8 left-8">
             <p className="text-sm font-medium text-gray-300">
-              UI/UX Designer
+             MERN Developer • UI/UX Designer
             </p>
 
             <p className="mt-1 text-2xl font-semibold text-white">
@@ -363,19 +360,19 @@ export default function Home() {
 
           <div className="rounded-xl border border-gray-800 bg-black/20 p-4 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40">
             <p className="font-semibold text-white">
-              UI/UX
+              MERN
             </p>
             <p className="mt-1 text-sm text-gray-500">
-              Figma Design
+              Full Stack
             </p>
           </div>
 
           <div className="rounded-xl border border-gray-800 bg-black/20 p-4 transition duration-300 hover:-translate-y-1 hover:border-purple-500/40">
             <p className="font-semibold text-white">
-              MERN
+              UI/UX
             </p>
             <p className="mt-1 text-sm text-gray-500">
-              Full Stack
+              Figma Design
             </p>
           </div>
 
